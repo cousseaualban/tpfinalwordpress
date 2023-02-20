@@ -1,0 +1,34 @@
+/* Theme Name: Thème blog
+Description: Thème personnalisé pour le site du Blog
+Version: 0.1
+Author: Alban
+*/
+
+@import './sass/variables';
+@import './sass/mixins';
+@import './sass/header';
+@import './sass/accueil';
+@import './sass/about';
+@import './sass/blog';
+@import './sass/nosrecettes';
+@import './sass/contact';
+@import './sass/footer';
+
+body {
+    margin: 0%;
+    top: 0%;
+
+    .image-class {
+        background-size: cover;
+        height: 60vh;
+    }
+
+    header {
+        @include header;
+    }
+
+    .accueil{
+        @include accueil;
+    }
+    
+}

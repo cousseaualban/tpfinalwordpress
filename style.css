@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* Theme Name: Thème blog
+Description: Thème personnalisé pour le site du Blog
+Version: 0.1
+Author: Alban
+*/
+body {
+  margin: 0%;
+  top: 0%;
+}
+body .image-class {
+  background-size: cover;
+  height: 60vh;
+}
+body header {
+  background-color: #00735C;
+  display: flex;
+}
+body header img {
+  width: 20%;
+}
+body header nav {
+  width: 80%;
+  margin: auto;
+}
+body header nav ul {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: #111D1D;
+  font-size: 1.5em;
+}
+body .accueil {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .accueil p {
+  text-align: center;
+  font-size: 1.5em;
+}/*# sourceMappingURL=style.css.map */
