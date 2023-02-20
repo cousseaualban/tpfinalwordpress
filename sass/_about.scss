@@ -1,0 +1,10 @@
+@import 'variables';
+
+@mixin about{
+
+    h2{
+        text-align: center;
+        color: $titleColor;
+        font-size: 2em;
+    }
+}

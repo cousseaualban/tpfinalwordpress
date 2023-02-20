@@ -4,9 +4,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5vh;
 
     p{
         text-align: center;
         font-size: 1.5em;
+        color: $titleColor;
     }
 }

@@ -30,5 +30,13 @@ body {
     .accueil{
         @include accueil;
     }
+
+    .about{
+        @include about;
+    }
+
+    .footer{
+        @include footer;
+    }
     
 }

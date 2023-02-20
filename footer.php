@@ -10,19 +10,12 @@
         </ul>
     </div>
 
-    <div class="infoSite">
+    <div class="links">
         <ul>
             <li><a href="mentionsLegales">Mentions légales</a></li>
             <li><a href="confidentialite">Politique de confidentialité</a></li>
             <li><a href="siteMap">Plan de site </a></li>
         </ul>
-    </div>
-
-    <div class="socialNetworks">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
     </div>
 </footer>
 

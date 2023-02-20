@@ -41,8 +41,36 @@ body .accueil {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 5vh;
 }
 body .accueil p {
   text-align: center;
+  font-size: 1.5em;
+  color: #9F2B25;
+}
+body .about h2 {
+  text-align: center;
+  color: #9F2B25;
+  font-size: 2em;
+}
+body .footer {
+  background-color: #00735C;
+  display: flex;
+  align-items: center;
+}
+body .footer img {
+  width: 20%;
+}
+body .footer .links {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+body .footer .links ul {
+  list-style-type: none;
+}
+body .footer .links a {
+  text-decoration: none;
+  color: #111D1D;
   font-size: 1.5em;
 }/*# sourceMappingURL=style.css.map */
