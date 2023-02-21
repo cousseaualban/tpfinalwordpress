@@ -71,6 +71,34 @@ body .about p {
 body .about img {
   width: 90%;
 }
+body #blog section {
+  padding-bottom: 5vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+body #blog section .oneArticle {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #blog section .oneArticle p {
+  padding-bottom: 2vh;
+  width: 70%;
+  margin: auto;
+}
+body #blog section .oneArticle .getArticle {
+  background-color: #D6CDCC;
+  border-radius: 8px;
+  border-color: #D6CDCC;
+  border-style: solid;
+}
+body #blog section .oneArticle .getArticle a {
+  text-decoration: none;
+  color: #111D1D;
+}
 body .footer {
   background-color: #00735C;
   display: flex;

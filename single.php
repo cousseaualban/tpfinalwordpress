@@ -6,13 +6,14 @@
         <?php while (have_posts()):
             the_post(); ?>
             <article>
+                <h1><?php the_title(); ?></h1>
                 <!-- affiche le contenu -->
                 <?php the_content(); ?>
                 <!-- fin affiche le contenu -->
                 <!-- affiche l'image mise en avant -->
                 <?php the_post_thumbnail(); ?>
                 <!-- fin affiche l'image mise en avant -->
-                <span>
+                <!-- <span>
                     <?php the_author(); ?>
                 </span>
                 <span>
@@ -20,9 +21,11 @@
                 </span>
                 <span>
                     <?php the_time('j F, Y'); ?>
-                </span>
+                </span> -->
             </article>
         <?php endwhile; ?>
     <?php endif; ?>
     <!-- fin boucle wordpress -->
 </main>
+
+<?php get_footer(); ?>

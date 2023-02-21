@@ -10,6 +10,7 @@ Author: Alban
 @import './sass/accueil';
 @import './sass/about';
 @import './sass/blog';
+@import './sass/single';
 @import './sass/nosrecettes';
 @import './sass/contact';
 @import './sass/footer';
@@ -43,6 +44,14 @@ body {
 
     .about{
         @include about;
+    }
+
+    #blog{
+        @include blog;
+    }
+
+    #actu{
+        @include single;
     }
 
     .footer{
