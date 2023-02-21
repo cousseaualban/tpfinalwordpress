@@ -26,7 +26,7 @@
                         <?php the_title(); ?>
                     </h3>
                     <?php the_excerpt(); ?>
-                    <button class="getArticle"><a href="<?php the_permalink() ?>" rel="bookmark">Aller dans
+                    <button class="getArticle"><a href="<?php the_permalink() ?>" rel="bookmark">Aller sur
                             l'article</a></button>
                 </div>
                 <!-- fin permet d'afficher un extrait d'article -->

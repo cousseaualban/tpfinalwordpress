@@ -56,6 +56,9 @@ body .accueil p {
   font-size: 1.5em;
   color: #9F2B25;
 }
+body .accueil a {
+  color: #111D1D;
+}
 body .about {
   width: 80%;
   margin: auto;
@@ -94,8 +97,36 @@ body #blog section .oneArticle .getArticle {
   border-radius: 8px;
   border-color: #D6CDCC;
   border-style: solid;
+  height: 4vh;
 }
 body #blog section .oneArticle .getArticle a {
+  text-decoration: none;
+  color: #111D1D;
+}
+body #actu article {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body #actu article p {
+  width: 60%;
+  font-size: 1.5em;
+  color: #111D1D;
+}
+body #actu .backOnBlog {
+  background-color: #D6CDCC;
+  border-radius: 8px;
+  border-color: #D6CDCC;
+  border-style: solid;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+  margin-top: 4vh;
+  height: 4vh;
+}
+body #actu .backOnBlog a {
   text-decoration: none;
   color: #111D1D;
 }

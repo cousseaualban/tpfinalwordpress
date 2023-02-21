@@ -9,7 +9,7 @@
             <li><a href="contact">Contact<a></li>
         </ul>
     </div>
-
+    
     <div class="links">
         <ul>
             <li><a href="mentionsLegales">Mentions légales</a></li>

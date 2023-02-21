@@ -1,5 +1,35 @@
 @import 'variables';
 
-@mixin single{
-    
+@mixin single {
+
+    article {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            width: 60%;
+            font-size: 1.5em;
+            color: $contentColor;
+        }
+    }
+
+    .backOnBlog {
+        background-color: $hoverColor;
+        border-radius: 8px;
+        border-color: $hoverColor;
+        border-style: solid;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4vh;
+        margin-top: 4vh;
+        height: 4vh;
+
+        a {
+            text-decoration: none;
+            color: $contentColor;
+        }
+    }
 }

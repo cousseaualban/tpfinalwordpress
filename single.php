@@ -5,24 +5,18 @@
     <?php if (have_posts()): ?>
         <?php while (have_posts()):
             the_post(); ?>
+            <h1>
+                <?php the_title(); ?>
+            </h1>
             <article>
-                <h1><?php the_title(); ?></h1>
                 <!-- affiche le contenu -->
                 <?php the_content(); ?>
                 <!-- fin affiche le contenu -->
                 <!-- affiche l'image mise en avant -->
                 <?php the_post_thumbnail(); ?>
                 <!-- fin affiche l'image mise en avant -->
-                <!-- <span>
-                    <?php the_author(); ?>
-                </span>
-                <span>
-                    <?php the_category(); ?>
-                </span>
-                <span>
-                    <?php the_time('j F, Y'); ?>
-                </span> -->
             </article>
+                <button class="backOnBlog"><a href="<?php echo get_permalink(17); ?>">Retourner sur le blog</a></button>
         <?php endwhile; ?>
     <?php endif; ?>
     <!-- fin boucle wordpress -->
