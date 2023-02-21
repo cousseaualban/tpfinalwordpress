@@ -54,6 +54,10 @@ body {
         @include single;
     }
 
+    .nosrecettes{
+        @include nosrecettes;
+    }
+
     .contact{
         @include contact;
     }
