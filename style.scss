@@ -23,6 +23,16 @@ body {
         height: 60vh;
     }
 
+    h1{
+        padding-bottom: 4vh;
+        text-align: center;
+        color: $titleColor;
+    }
+
+    li:hover{
+        background-color: $hoverColor;
+    }
+
     header {
         @include header;
     }
