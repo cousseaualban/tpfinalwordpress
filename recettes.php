@@ -5,6 +5,7 @@
 <?php $thumb = get_the_post_thumbnail_url(); ?>
 <div class="image-class" style="background-image: url('<?php echo $thumb; ?>')"></div>
 
+<h1><?php the_title();?></h1>
 <div class="nosrecettes">
     <?php the_content() ?>
     <?php if (have_rows('recette_1')): ?>
