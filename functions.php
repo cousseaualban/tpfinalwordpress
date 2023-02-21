@@ -25,6 +25,7 @@ function wpdocs_theme_setup()
     add_image_size('blogpage_thumb', 300, 300, false);
     add_image_size('singleposthumbnail', 500, 500, false);
     add_image_size('singleposthumbnail2', 500, 500, true); // L'image sera tronquée exactement à la dimension indiquée
+    add_image_size('icons', 90, 90, true);
     add_image_size('recentpost-thumb', 200, 200, false);
     add_image_size('couv', 1536, 1536, false);
 }

@@ -130,6 +130,37 @@ body #actu .backOnBlog a {
   text-decoration: none;
   color: #111D1D;
 }
+body .contact iframe {
+  width: 100%;
+}
+body .contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .contact img {
+  display: flex;
+}
+body .contact h2 {
+  text-align: center;
+  color: #9F2B25;
+  font-size: 2em;
+}
+body .contact .socialNetworks {
+  padding-bottom: 4vh;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .contact .socialNetworks i {
+  border: 1px solid #111D1D;
+  border-radius: 50px;
+  padding: 0.5em;
+  min-width: 1em;
+  text-align: center;
+}
 body .footer {
   background-color: #00735C;
   display: flex;

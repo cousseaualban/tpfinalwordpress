@@ -54,6 +54,10 @@ body {
         @include single;
     }
 
+    .contact{
+        @include contact;
+    }
+
     .footer{
         @include footer;
     }

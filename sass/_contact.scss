@@ -1,0 +1,40 @@
+@import 'variables';
+
+@mixin contact{
+    iframe{
+        width: 100%;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img{
+        display: flex;
+    }
+
+    h2{
+        text-align: center;
+        color: $titleColor;
+        font-size: 2em;
+    }
+
+    .socialNetworks{
+        padding-bottom: 4vh;
+        width: 20%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        i {
+            border: 1px solid $contentColor;
+            border-radius: 50px;
+            padding: 0.5em;
+            min-width: 1em;
+            text-align: center;
+        }
+    }
+}
