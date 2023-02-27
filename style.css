@@ -130,6 +130,35 @@ body #actu .backOnBlog a {
   text-decoration: none;
   color: #111D1D;
 }
+body .nosrecettes {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+body .nosrecettes figcaption {
+  padding-bottom: 10vh;
+}
+body .nosrecettes .antipastis {
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+body .nosrecettes .risotto {
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+body .nosrecettes .dessert {
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 75%;
+  left: 40%;
+}
 body .contact iframe {
   width: 100%;
 }

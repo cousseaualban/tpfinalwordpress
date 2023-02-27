@@ -1,5 +1,35 @@
 @import 'variables';
 
 @mixin nosrecettes{
-    
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+    figcaption{
+        padding-bottom: 10vh;
+    }
+
+    .antipastis{
+        width: 60%;
+        margin: auto;
+        position: absolute;
+        top: 5%;
+        left: 40%;
+    }
+
+    .risotto{
+        width: 60%;
+        margin: auto;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+
+    .dessert{
+        width: 60%;
+        margin: auto;
+        position: absolute;
+        top: 75%;
+        left: 40%;
+    }
 }
