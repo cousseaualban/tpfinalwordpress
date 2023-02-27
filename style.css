@@ -35,6 +35,11 @@ body header img {
     width: 30%;
   }
 }
+@media (max-width: 768px) {
+  body header img {
+    width: 40%;
+  }
+}
 body header nav {
   width: 90%;
   margin: auto;
@@ -344,6 +349,11 @@ body .contact .socialNetworks {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 425px) {
+  body .contact .socialNetworks {
+    width: 40%;
+  }
+}
 body .contact .socialNetworks i {
   border: 1px solid #111D1D;
   border-radius: 50px;
@@ -367,7 +377,12 @@ body .footer img {
 }
 @media (max-width: 992px) {
   body .footer img {
-    width: 30%;
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  body .footer img {
+    width: 40%;
   }
 }
 body .footer .links {

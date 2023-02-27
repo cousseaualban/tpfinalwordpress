@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang="fr">
 <head <?php language_attributes(); ?>>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta charset="utf-8">

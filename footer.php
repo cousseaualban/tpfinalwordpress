@@ -3,10 +3,10 @@
 
     <div class="links">
         <ul>
-            <li><a href="about">About<a></li>
-            <li><a href="blog">Blog<a></li>
+            <li><a href="<?php echo get_permalink(15) ?>">About<a></li>
+            <li><a href="<?php echo get_permalink(17) ?>">Blog<a></li>
             <li><a href="<?php echo get_permalink(19) ?>">Nos recettes<a></li>
-            <li><a href="contact">Contact<a></li>
+            <li><a href="<?php echo get_permalink(21) ?>">Contact<a></li>
         </ul>
     </div>
     
