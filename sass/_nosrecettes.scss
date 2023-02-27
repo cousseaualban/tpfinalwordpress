@@ -37,6 +37,11 @@
         @media (max-width: 992px) {
             left: 41%;
         }
+
+        // Responsive mobile
+        @media (max-width: 768px) {
+            top: 5%;
+        }
     }
 
     .risotto {

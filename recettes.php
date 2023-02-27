@@ -14,6 +14,8 @@
         <?php if (have_rows('recette_1')): ?>
             <?php while (have_rows('recette_1')):
                 the_row(); ?>
+                <?php the_sub_field('photo_1'); ?>
+                <hr>
                 <?php the_sub_field('ingredients_1'); ?>
                 <hr>
                 <?php the_sub_field('preparation_1'); ?>
@@ -28,6 +30,8 @@
         <?php if (have_rows('recette_2')): ?>
             <?php while (have_rows('recette_2')):
                 the_row(); ?>
+                <?php the_sub_field('photo_2'); ?>
+                <hr>
                 <?php the_sub_field('ingredients_2'); ?>
                 <hr>
                 <?php the_sub_field('preparation_2'); ?>
@@ -42,6 +46,8 @@
         <?php if (have_rows('recette_3')): ?>
             <?php while (have_rows('recette_3')):
                 the_row(); ?>
+                <?php the_sub_field('photo_3'); ?>
+                <hr>
                 <?php the_sub_field('ingredients_3'); ?>
                 <hr>
                 <?php the_sub_field('preparations_3'); ?>

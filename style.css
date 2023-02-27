@@ -9,6 +9,7 @@ body {
   top: 0%;
 }
 body .image-class {
+  width: 100%;
   background-size: cover;
   height: 60vh;
 }
@@ -297,6 +298,11 @@ body .nosrecettes .antipastis {
 @media (max-width: 992px) {
   body .nosrecettes .antipastis {
     left: 41%;
+  }
+}
+@media (max-width: 768px) {
+  body .nosrecettes .antipastis {
+    top: 5%;
   }
 }
 body .nosrecettes .risotto {
