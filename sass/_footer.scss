@@ -1,29 +1,45 @@
 @import 'variables';
 
-@mixin footer{
+@mixin footer {
     background-color: $headerFooterColor;
     display: flex;
     align-items: center;
-    img{
+
+    img {
         width: 20%;
+
+        // Responsive tablette
+        @media (max-width: 992px) {
+            width: 30%;
+        }
     }
 
-    .links{
+    .links {
         width: 50%;
         margin: auto;
         text-align: center;
-        
-        ul{
+
+        ul {
             width: 90%;
             list-style-type: none;
             display: flex;
             justify-content: space-between;
+
+            // Responsive tablette
+            @media (max-width: 992px) {
+                width: 100%;
+            }
         }
 
-        a{
+        a {
             text-decoration: none;
             color: $contentColor;
             font-size: 1.5em;
+
+            // Responsive tablette
+            @media (max-width: 992px) {
+                font-size: 1.25em;
+            }
         }
     }
 }

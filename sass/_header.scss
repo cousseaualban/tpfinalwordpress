@@ -1,28 +1,48 @@
 @import 'variables';
 
-@mixin header{
+@mixin header {
     background-color: $headerFooterColor;
     display: flex;
 
-    img{
+    img {
         width: 20%;
+
+        // Responsive tablette
+        @media (max-width: 992px) {
+            width: 30%;
+        }
     }
 
-    nav{
+    nav {
         width: 80%;
         margin: auto;
 
-        ul{
+        // Responsive tablette
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+
+        ul {
             width: 60%;
             margin: auto;
             display: flex;
             justify-content: space-between;
             list-style-type: none;
 
-            a{
+            // Responsive tablette
+            @media (max-width: 992px) {
+                width: 90%;
+            }
+
+            a {
                 text-decoration: none;
                 color: $contentColor;
                 font-size: 1.5em;
+
+                // Responsive tablette
+                @media (max-width: 992px) {
+                    font-size: 1.25em;
+                }
             }
         }
     }

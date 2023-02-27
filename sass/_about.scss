@@ -1,6 +1,6 @@
 @import 'variables';
 
-@mixin about{
+@mixin about {
 
     width: 80%;
     margin: auto;
@@ -8,13 +8,24 @@
     align-items: center;
     justify-content: space-between;
 
-    p{
+    // Responsive tablette
+    @media (max-width: 992px) {
+        width: 95%;
+    }
+
+    p {
         font-size: 1.25em;
         width: 60%;
         color: $contentColor;
+
+        // Responsive tablette
+        @media (max-width: 992px) {
+            width: 80%;
+            text-align: center;
+        }
     }
 
-    img{
+    img {
         width: 90%;
     }
 }

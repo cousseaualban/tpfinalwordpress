@@ -6,6 +6,11 @@
     align-items: center;
     padding-bottom: 5vh;
 
+            // Responsive tablette
+            @media (max-width: 992px){
+                width: 95%;
+            }
+
     p{
         text-align: center;
         font-size: 1.5em;

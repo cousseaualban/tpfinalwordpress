@@ -9,10 +9,21 @@
         justify-content: space-between;
         align-items: center;
 
+        // Responsive tablette
+        @media (max-width: 992px) {
+            width: 95%;
+        }
+
         p {
             width: 60%;
             font-size: 1.5em;
             color: $contentColor;
+
+            // Responsive tablette
+            @media (max-width: 992px) {
+                width: 40%;
+                font-size: 1.25em;
+            }
         }
     }
 

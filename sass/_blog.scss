@@ -1,34 +1,45 @@
 @import 'variables';
 
-@mixin blog{
+@mixin blog {
 
-    section{
+    section {
         padding-bottom: 5vh;
         width: 80%;
         margin: auto;
         display: flex;
 
-        .oneArticle{
+        // Responsive tablette
+        @media (max-width: 992px) {
+            width: 95%;
+        }
+
+        .oneArticle {
             width: 90%;
             margin: auto;
             display: flex;
             flex-direction: column;
             align-items: center;
-            
-            p{
+
+            p {
                 padding-bottom: 2vh;
                 width: 70%;
                 margin: auto;
+
+                // Responsive tablette
+                @media (max-width: 992px) {
+                    width: 90%;
+                    text-align: center;
+                }
             }
 
-            .getArticle{
+            .getArticle {
                 background-color: $hoverColor;
                 border-radius: 8px;
                 border-color: $hoverColor;
                 border-style: solid;
                 height: 4vh;
 
-                a{
+                a {
                     text-decoration: none;
                     color: $contentColor;
                 }

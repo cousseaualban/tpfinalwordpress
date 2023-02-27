@@ -27,9 +27,19 @@ body header {
 body header img {
   width: 20%;
 }
+@media (max-width: 992px) {
+  body header img {
+    width: 30%;
+  }
+}
 body header nav {
   width: 80%;
   margin: auto;
+}
+@media (max-width: 992px) {
+  body header nav {
+    width: 100%;
+  }
 }
 body header nav ul {
   width: 60%;
@@ -38,10 +48,20 @@ body header nav ul {
   justify-content: space-between;
   list-style-type: none;
 }
+@media (max-width: 992px) {
+  body header nav ul {
+    width: 90%;
+  }
+}
 body header nav ul a {
   text-decoration: none;
   color: #111D1D;
   font-size: 1.5em;
+}
+@media (max-width: 992px) {
+  body header nav ul a {
+    font-size: 1.25em;
+  }
 }
 body .accueil {
   width: 80%;
@@ -50,6 +70,11 @@ body .accueil {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 5vh;
+}
+@media (max-width: 992px) {
+  body .accueil {
+    width: 95%;
+  }
 }
 body .accueil p {
   text-align: center;
@@ -66,10 +91,21 @@ body .about {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 992px) {
+  body .about {
+    width: 95%;
+  }
+}
 body .about p {
   font-size: 1.25em;
   width: 60%;
   color: #111D1D;
+}
+@media (max-width: 992px) {
+  body .about p {
+    width: 80%;
+    text-align: center;
+  }
 }
 body .about img {
   width: 90%;
@@ -79,6 +115,11 @@ body #blog section {
   width: 80%;
   margin: auto;
   display: flex;
+}
+@media (max-width: 992px) {
+  body #blog section {
+    width: 95%;
+  }
 }
 body #blog section .oneArticle {
   width: 90%;
@@ -91,6 +132,12 @@ body #blog section .oneArticle p {
   padding-bottom: 2vh;
   width: 70%;
   margin: auto;
+}
+@media (max-width: 992px) {
+  body #blog section .oneArticle p {
+    width: 90%;
+    text-align: center;
+  }
 }
 body #blog section .oneArticle .getArticle {
   background-color: #D6CDCC;
@@ -110,10 +157,21 @@ body #actu article {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 992px) {
+  body #actu article {
+    width: 95%;
+  }
+}
 body #actu article p {
   width: 60%;
   font-size: 1.5em;
   color: #111D1D;
+}
+@media (max-width: 992px) {
+  body #actu article p {
+    width: 40%;
+    font-size: 1.25em;
+  }
 }
 body #actu .backOnBlog {
   background-color: #D6CDCC;
@@ -135,22 +193,45 @@ body .nosrecettes {
   margin: auto;
   position: relative;
 }
-body .nosrecettes figcaption {
-  padding-bottom: 10vh;
+@media (max-width: 992px) {
+  body .nosrecettes {
+    width: 95%;
+  }
+}
+body .nosrecettes h2 {
+  text-align: center;
+  color: #9F2B25;
+}
+@media (max-width: 992px) {
+  body .nosrecettes img {
+    width: 40%;
+    padding-bottom: 5vh;
+  }
 }
 body .nosrecettes .antipastis {
   width: 60%;
   margin: auto;
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 40%;
+}
+@media (max-width: 992px) {
+  body .nosrecettes .antipastis {
+    left: 41%;
+  }
 }
 body .nosrecettes .risotto {
   width: 60%;
   margin: auto;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 40%;
+}
+@media (max-width: 992px) {
+  body .nosrecettes .risotto {
+    left: 41%;
+    top: 41%;
+  }
 }
 body .nosrecettes .dessert {
   width: 60%;
@@ -158,6 +239,12 @@ body .nosrecettes .dessert {
   position: absolute;
   top: 75%;
   left: 40%;
+}
+@media (max-width: 992px) {
+  body .nosrecettes .dessert {
+    left: 41%;
+    top: 75%;
+  }
 }
 body .contact iframe {
   width: 100%;
@@ -198,6 +285,11 @@ body .footer {
 body .footer img {
   width: 20%;
 }
+@media (max-width: 992px) {
+  body .footer img {
+    width: 30%;
+  }
+}
 body .footer .links {
   width: 50%;
   margin: auto;
@@ -209,8 +301,18 @@ body .footer .links ul {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 992px) {
+  body .footer .links ul {
+    width: 100%;
+  }
+}
 body .footer .links a {
   text-decoration: none;
   color: #111D1D;
   font-size: 1.5em;
+}
+@media (max-width: 992px) {
+  body .footer .links a {
+    font-size: 1.25em;
+  }
 }/*# sourceMappingURL=style.css.map */
