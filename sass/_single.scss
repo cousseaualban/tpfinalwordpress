@@ -14,6 +14,12 @@
             width: 95%;
         }
 
+        // Responsive mobile
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+
         p {
             width: 60%;
             font-size: 1.5em;
@@ -23,6 +29,12 @@
             @media (max-width: 992px) {
                 width: 40%;
                 font-size: 1.25em;
+            }
+
+            // Responsive mobile
+            @media (max-width: 768px) {
+                width: 80%;
+                text-align: center;
             }
         }
     }

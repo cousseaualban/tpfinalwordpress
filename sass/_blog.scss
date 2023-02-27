@@ -13,6 +13,12 @@
             width: 95%;
         }
 
+        // Responsive mobile
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+
         .oneArticle {
             width: 90%;
             margin: auto;
