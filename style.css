@@ -271,7 +271,6 @@ body #actu .backOnBlog a {
 body .nosrecettes {
   width: 80%;
   margin: auto;
-  position: relative;
 }
 @media (max-width: 992px) {
   body .nosrecettes {
@@ -282,54 +281,30 @@ body .nosrecettes h2 {
   text-align: center;
   color: #9F2B25;
 }
+body .nosrecettes img {
+  width: 30%;
+  height: 30vh;
+  margin-right: 50vh;
+}
 @media (max-width: 992px) {
   body .nosrecettes img {
     width: 40%;
-    padding-bottom: 5vh;
-  }
-}
-body .nosrecettes .antipastis {
-  width: 60%;
-  margin: auto;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-}
-@media (max-width: 992px) {
-  body .nosrecettes .antipastis {
-    left: 41%;
   }
 }
 @media (max-width: 768px) {
-  body .nosrecettes .antipastis {
-    top: 5%;
+  body .nosrecettes img {
+    width: 60%;
   }
 }
-body .nosrecettes .risotto {
+@media (max-width: 425px) {
+  body .nosrecettes img {
+    width: 80%;
+  }
+}
+body .nosrecettes .recette {
   width: 60%;
   margin: auto;
-  position: absolute;
-  top: 45%;
-  left: 40%;
-}
-@media (max-width: 992px) {
-  body .nosrecettes .risotto {
-    left: 41%;
-    top: 41%;
-  }
-}
-body .nosrecettes .dessert {
-  width: 60%;
-  margin: auto;
-  position: absolute;
-  top: 75%;
-  left: 40%;
-}
-@media (max-width: 992px) {
-  body .nosrecettes .dessert {
-    left: 41%;
-    top: 75%;
-  }
+  padding-bottom: 5vh;
 }
 body .contact iframe {
   width: 100%;
